@@ -1,0 +1,15 @@
+{
+  "name": "sass-learning-app",
+  "version": "1.0.0",
+  "description": "learning sass with latest sass",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "pracel build index.html"
+  },
+  "author": "@monukd01dev",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
+}

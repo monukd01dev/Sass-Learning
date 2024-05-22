@@ -1,0 +1,10 @@
+@forward 'base';
+@forward 'components';
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+} 
+
+

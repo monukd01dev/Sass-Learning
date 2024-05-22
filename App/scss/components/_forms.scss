@@ -1,0 +1,51 @@
+@use '../base/fonts' as f;
+
+form{
+    width: 400px;
+    height: fit-content;
+    border: 1px solid white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: f.$font;
+
+    .inps{
+        width: 100%;
+        margin-top: 2rem;  
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        .input-grp{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            label{
+                margin-left: 10px;
+                font-size: 1.1rem;
+            }
+
+            input{
+                width: 100%;
+                border-radius: 50px;
+                outline: none;
+                height: 35px;
+                margin-top: 5px;
+                padding: 12px 10px;
+            }
+        }
+    }
+
+    button{
+        padding: 0.8rem 2rem;
+        font-size: 1.2rem;
+        outline: none;
+        border-radius: 50px;
+        background-color: red;
+        color:white;
+        border:none;
+        margin: 0.8rem;
+    }
+
+}
